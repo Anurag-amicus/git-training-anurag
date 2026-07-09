@@ -26,3 +26,12 @@ Project - A Simple Portfolio Website using HTML, CSS, Javascript.
 
     It was not a fast forward merge but,
     The merge was a 3-way merge because we have new commits in feature branch and also we have a new commit in main branch so thats why it was a 3-way merge not a fast forward merge
+
+# When should you rebase vs merge?
+
+    When you want to update your local feature branch with new changes from main branch to maintain a clean base for your branch ---- use rebase
+    When you want to integrate a completed feature branch into stable main branch ---- use merge
+
+# What's the golden rule of rebasing?
+
+    Never rebase branches that have already been pushed to remote shared repository. And you only rebase main onto your local feature branch not the other way around i.e. to let your feature branch updated with the latest commit from main.
