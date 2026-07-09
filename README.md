@@ -21,3 +21,8 @@ Project - A Simple Portfolio Website using HTML, CSS, Javascript.
      2. clear the git index - git rm -r --cached
      3. Now stage the files - git add .
     After doing these the files in gitignore will never be tracked
+
+# During merging of feature/add-navigation branch to main
+
+    It was not a fast forward merge but,
+    The merge was a 3-way merge because we have new commits in feature branch and also we have a new commit in main branch so thats why it was a 3-way merge not a fast forward merge
