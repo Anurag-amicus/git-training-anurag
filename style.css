@@ -14,3 +14,38 @@
     text-decoration: none;
     padding: 5px 10px;
 }
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #80b9df;
+    padding: 20px;
+}
+#sidebar-links a {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#hero-section {
+    background-color: #1589c3;
+    padding: 100px;
+    text-align: center;
+    margin-left: 100px;
+}
