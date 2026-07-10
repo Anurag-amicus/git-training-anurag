@@ -14,5 +14,16 @@
 
   Using Reflog
 
+# Before git reset hard
+
+  
+  This commit is essential and needs to be present
+  ![Git Recovery](assets/Screenshot%202026-07-10%20124210.png)
+
 # Accidentally used git reset hard
+
+  Head is pushed back 1 commit so we have to use reflog and take hash for git reset hard
+
+  ![Git recovery](assets/Screenshot%202026-07-10%20124634.png)
+
 
