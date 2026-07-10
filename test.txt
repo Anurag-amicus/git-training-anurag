@@ -1,3 +1,4 @@
 this the text file for rebase testing
 adding some work in progress feature
 fixing the feature in the file
+addin more info about file
